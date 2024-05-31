@@ -1,0 +1,166 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{vietnam}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{subfigure}
+
+
+\pagenumbering{arabic}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \textbf{\large ĐẠI HỌC BÁCH KHOA HÀ NỘI}\\
+        \textbf{\large Trường Công nghệ Thông tin và Truyền thông}\\[1cm]
+        \includegraphics[width=100pt]{logo.png} \\[3cm] % Thay đường dẫn bằng đường dẫn tới logo của trường
+       
+        
+        \textbf{\Huge BÁO CÁO BÀI TẬP CUỐI KỲ 2023.2}\\[0.5cm]
+        \textbf{\Huge Học phần: Thực hành cơ sở dữ liệu}\\[0.5cm]
+        \textbf{\Huge Mã học phần: IT3290}\\[0.5cm]
+        \textbf{Giảng viên hướng dẫn:} Lê Đức Hậu\\
+        \begin{flushleft}
+            \textbf{Họ và tên:} Võ Anh Khôi\\[0.5cm]
+            \textbf{Mã sinh viên:} [Mã Sinh Viên]\\[0.5cm]
+        
+        \end{flushleft}
+        
+        \vfill
+        
+        \textbf{\large Hà Nội, ngày [Ngày] tháng [Tháng] năm [Năm]}
+        
+    \end{center}
+\end{titlepage}
+
+\section{Các Thực Thể}
+
+\begin{enumerate}
+    \item \textbf{Tòa (Dorm)}
+    \begin{itemize}
+        \item \textbf{Mã tòa (Dorm\_ID)}: Mã định danh của tòa nhà.
+        \item \textbf{Tên tóa (Dorm\_Name)}: Tên tòa nhà.
+        \item \textbf{Địa chỉ (Dorm\_Address)}: Địa chỉ của tòa nhà.
+        \item \textbf{Số lượng phòng (Number\_Of\_Rooms)}: Số lượng phòng trong tòa nhà.
+        \item \textbf{Số lượng tầng (Number\_Of\_Floors)}: Số lượng tầng của tòa nhà.
+    \end{itemize}
+    
+    \item \textbf{Phòng (Room)}
+    \begin{itemize}
+        \item \textbf{Mã phòng (Room\_ID)}: Mã định danh của phòng.
+        \item \textbf{Loại phòng (Room\_Type)}: Loại phòng (phòng nam/nữ).
+        \item \textbf{Số lượng giường (Number\_Of\_Bed)}: Số lượng giường trong phòng.
+        \item \textbf{Số lượng người ở hiện tại (Current\_Occupancy)}: Số lượng người đang ở trong phòng.
+        \item \textbf{Giá thuê (Rent\_Price)}: Giá thuê phòng.
+        \item \textbf{Trạng thái (Room\_status)}: Trạng thái của phòng (còn trống, đã đầy).
+    \end{itemize}
+    
+    \item \textbf{Sinh Viên (Student)}
+    \begin{itemize}
+        \item \textbf{Mã sinh viên (Student\_ID)}: Mã định danh duy nhất cho mỗi sinh viên.
+        \item \textbf{Họ đệm (Student\_First\_Name)}: Họ và đệm của sinh viên.
+        \item \textbf{Tên (Student\_Last\_Name)}: Tên sinh viên.
+        \item \textbf{Ngày sinh (Student\_Birthday)}: Ngày sinh của sinh viên.
+        \item \textbf{Giới tính (Student\_Gender)}: Giới tính của sinh viên.
+        \item \textbf{Email (Student\_Email)}: Địa chỉ email của sinh viên.
+        \item \textbf{Số điện thoại (Student\_Phone\_Number)}: Số điện thoại của sinh viên.
+        \item \textbf{Địa chỉ nhà (Student\_Address)}: Địa chỉ nhà của sinh viên.
+        \item \textbf{Ngành (Major)}: Ngành học sinh viên.
+    \end{itemize}
+    
+    \item \textbf{Nhân Viên (Staff)}
+    \begin{itemize}
+        \item \textbf{Mã nhân viên (Staff\_ID)}: Mã định danh của nhân viên.
+        \item \textbf{Họ đệm (Staff\_First\_Name)}: Họ và đệm của nhân viên.
+        \item \textbf{Tên (Staff\_Last\_Name)}: Tên nhân viên.
+        \item \textbf{Chức vụ (Position)}: Chức vụ của nhân viên.
+        \item \textbf{Số điện thoại (Staff\_Phone\_Number)}: Số điện thoại của nhân viên.
+        \item \textbf{Địa chỉ nhà (Staff\_Address)}: Địa chỉ nhà của nhân viên.
+        \item \textbf{Lương (Salary)}: Lương của nhân viên.
+    \end{itemize}
+    
+    \item \textbf{Thiết Bị (Equipment)}
+    \begin{itemize}
+        \item \textbf{Mã thiết bị (Equipment\_ID)}: Mã định danh của thiết bị.
+        \item \textbf{Tên thiết bị (Equipment\_Name)}: Tên của thiết bị.
+        \item \textbf{Số lượng (Equipment\_Quantity)}: Số lượng thiết bị.
+        \item \textbf{Tình trạng (Equipment\_Status)}: Tình trạng của thiết bị.
+    \end{itemize}
+    
+    \item \textbf{Dịch Vụ (Service)}
+    \begin{itemize}
+        \item \textbf{Mã dịch vụ (Service\_ID)}: Mã định danh của dịch vụ.
+        \item \textbf{Tên dịch vụ (Service\_Name)}: Tên của dịch vụ.
+        \item \textbf{Giá dịch vụ (Service\_Price)}: Giá của dịch vụ.
+        \item \textbf{Mô tả (Service\_Description)}: Mô tả chi tiết về dịch vụ.
+    \end{itemize}
+    
+    \item \textbf{Hồ Sơ Kỷ Luật (Discipline)}
+    \begin{itemize}
+        \item \textbf{Mã hồ sơ kỷ luật (Discipline\_ID)}: Mã hồ sơ kỷ luật.
+        \item \textbf{Mã sinh viên (Student\_ID)}: Mã định danh của sinh viên.
+        \item \textbf{Ngày vi phạm (Violation\_Date)}: Ngày vi phạm.
+        \item \textbf{Mô tả vi phạm (Violation\_Information)}: Mô tả vi phạm.
+        \item \textbf{Hình phạt (Penalty)}: Hình phạt sinh viên phải chịu.
+    \end{itemize}
+    
+    \item \textbf{Sự Cố (Incident)}
+    \begin{itemize}
+        \item \textbf{Mã sự cố (Incident\_ID)}: Mã sự cố.
+        \item \textbf{Trạng thái (Incident\_Status)}: Trạng thái của sự cố.
+        \item \textbf{Mã phòng (Room\_ID)}: Mã định danh của phòng.
+        \item \textbf{Ngày báo cáo (Report\_Date)}: Ngày báo cáo.
+        \item \textbf{Mô tả (Incident\_Description)}: Mô tả sự cố.
+    \end{itemize}
+\end{enumerate}
+
+\section{Quan Hệ}
+
+\begin{enumerate}
+    \item \textbf{Thuê Phòng (Renting)}
+    \begin{itemize}
+        \item \textbf{Mã hợp đồng (Renting\_Contract\_ID)}: Mã định danh duy nhất của hợp đồng thuê phòng.
+        \item \textbf{Mã phòng (Room\_ID)}: Mã định danh của phòng.
+        \item \textbf{Mã sinh viên (Student\_ID)}: Mã định danh của sinh viên thuê phòng.
+        \item \textbf{Ngày nộp tiền (Renting\_Payment\_Date)}: Ngày sinh viên nộp tiền thuê phòng.
+        \item \textbf{Ngày bắt đầu (Renting\_Start\_Date)}: Ngày bắt đầu hợp đồng thuê phòng.
+        \item \textbf{Ngày hết hạn (Renting\_End\_Date)}: Ngày hết hạn hợp đồng thuê phòng.
+        \item \textbf{Trạng thái (Renting\_Status)}: Trạng thái của hợp đồng (còn hiệu lực, đã hết hạn).
+    \end{itemize}
+    
+    \item \textbf{Quan Hệ Cung Cấp Dịch Vụ (Supply)}
+    \begin{itemize}
+        \item \textbf{Mã dịch vụ (Service\_ID)}: Mã định danh của dịch vụ.
+        \item \textbf{Mã tòa (Dorm\_ID)}: Mã định danh của tòa nhà.
+    \end{itemize}
+    
+    \item \textbf{Đăng Ký Dịch Vụ (Service\_Registration)}
+    \begin{itemize}
+        \item \textbf{Mã dịch vụ (Service\_ID)}: Mã định danh của dịch vụ.
+        \item \textbf{Mã sinh viên (Student\_ID)}: Mã định danh của sinh viên đăng ký dịch vụ.
+        \item \textbf{Ngày bắt đầu (Service\_Start\_Date)}: Ngày bắt đầu sử dụng dịch vụ.
+        \item \textbf{Ngày hết hạn (Service\_End\_Date)}: Ngày hết hạn sử dụng dịch vụ.
+        \item \textbf{Ngày nộp tiền (Service\_Payment\_Date)}: Ngày sinh viên nộp tiền cho dịch vụ.
+        \item \textbf{Thành tiền (Service\_Total\_Amount)}: Tổng số tiền phải trả cho dịch vụ.
+        \item \textbf{Trạng thái (Service\_Status)}: Trạng thái của dịch vụ (đã thanh toán, chưa thanh toán).
+    \end{itemize}
+    
+    \item \textbf{Sử Dụng Thiết Bị (Equipment\_Usage)}
+    \begin{itemize}
+        \item \textbf{Mã phòng (Room\_ID)}: Mã định danh của phòng.
+        \item \textbf{Mã thiết bị (Equipment\_ID)}: Mã định danh của thiết bị.
+        \item \textbf{Ngày bắt đầu (Equipment\_Start\_Date)}: Ngày bắt đầu sử dụng thiết bị.
+        \item \textbf{Ngày kết thúc (Equipment\_End\_Date)}: Ngày kết thúc sử dụng thiết bị.
+        \item \textbf{Số lượng (Using\_Quantity)}: Số lượng thiết bị được sử dụng.
+    \end{itemize}
+    
+    \item \textbf{Quan Hệ Làm Việc (Working)}
+    \begin{itemize}
+        \item \textbf{Mã nhân viên (Staff\_ID)}: Mã định danh của nhân viên.
+        \item \textbf{Mã tòa (Dorm\_ID)}: Mã định danh của tòa nhà.
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
