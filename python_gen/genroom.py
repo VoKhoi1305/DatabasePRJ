@@ -1,4 +1,5 @@
 import random
+import os
 # Sample Dorm_IDs assuming these are pre-existing in the Dorm table
 dorm_ids = ["DORM0001", "DORM0002", "DORM0003", "DORM0004"]
 
@@ -12,7 +13,7 @@ def generate_room_data():
                 room_id = f"RM{dorm_id[-2:]}{floor:02d}{room_number:02d}"
                 room_type = random.choice(['Male', 'Female'])
                 number_of_bed = random.randint(2, 4)
-                current_occupancy = random.randint(0, number_of_bed)
+                current_occupancy = 0
                 
                 # Set rent price based on the number of beds
                 if number_of_bed == 2:
@@ -30,7 +31,7 @@ def generate_room_data():
 room_data = generate_room_data()
 
 # Write data to a file
-filename = "room_data.sql"
+filename = os.path.join("sql", "data", "room_data.sql")
 with open(filename, 'w') as file:
     file.write("INSERT INTO Room (Room_ID, Room_Type, Number_Of_Bed, Current_Occupancy, Rent_Price, Dorm_ID) VALUES\n")
     for record in room_data:

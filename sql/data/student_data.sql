@@ -566,7 +566,7 @@ FPO AP 47656', 'Fletchermouth', 'Neurosurgeon'),
 ('20194617', 'Eric', 'Bennett', '1994-10-30', 'F', 'summerswilliam@example.com', '093-241-3662', 'USCGC Schroeder
 FPO AA 65915', 'Markstad', 'Geophysicist/field seismologist'),
 ('20215577', 'Lori', 'Smith', '2001-03-26', 'F', 'perezlarry@example.com', '092-356-8348', '513 Morgan Valleys
-Lake Brandyburgh, NY 13113', 'Monicaside', 'Barrister's clerk'),
+Lake Brandyburgh, NY 13113', 'Monicaside', 'Barristers clerk'),
 ('20195620', 'Jonathan', 'Brown', '2000-07-01', 'M', 'russoraymond@example.com', '096-526-2420', '8766 Brittany Neck
 Nicoleville, NE 15374', 'Moyerside', 'Housing manager/officer'),
 ('20205602', 'Ryan', 'Wood', '2002-01-18', 'F', 'jessica45@example.net', '093-783-3329', '84791 Dana Inlet Apt. 307

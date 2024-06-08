@@ -51,7 +51,7 @@ def generate_staff_data(num_records):
 staff_records = generate_staff_data(1000)
 
 # Define the output filename
-filename = 'insert_staff_data.sql'
+filename = os.path.join("sql", "data", "insert_staff_data.sql")
 
 # Write the SQL insert statements to the file
 with open(filename, 'w') as file:

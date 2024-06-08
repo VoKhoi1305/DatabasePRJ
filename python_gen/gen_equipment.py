@@ -47,7 +47,7 @@ def generate_equipment_data(equipment_names):
     
     for name in equipment_names:
         equipment_id = generate_unique_equipment_id(existing_ids, name[:2].upper())
-        equipment_quantity = random.randint(1, 100)
+        equipment_quantity = random.randint(500, 550 )
  
         
         equipment_data.append((equipment_id, name, equipment_quantity))
