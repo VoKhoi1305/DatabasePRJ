@@ -1,5 +1,4 @@
-INSERT INTO Equipment (Equipment_ID, Equipment_Name, Equipment_Quantity) VALUES
-('DEK5ZAPE', 'Desk', 535),
+INSERT INTO Equipment (Equipment_ID, Equipment_Name, Equipment_Quantity) VALUESdiscipline
 ('CHZUDKN4', 'Chair', 541),
 ('LAPJQYNG', 'Lamp', 547),
 ('BO3HR5OQ', 'Bookshelf', 521),
@@ -93,4 +92,4 @@ INSERT INTO Equipment (Equipment_ID, Equipment_Name, Equipment_Quantity) VALUES
 ('PL89DPHL', 'Plunger', 511),
 ('BA5Z8DPJ', 'Bathrobe', 514),
 ('SHMMKJ6Z', 'Shower Cap', 515),
-('HAAJGB0X', 'Hair Dryer', 506),;
+('HAAJGB0X', 'Hair Dryer', 506);

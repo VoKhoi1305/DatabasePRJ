@@ -55,15 +55,15 @@ service_ids = parse_ids(service_file_path)
 student_ids = parse_ids(student_file_path)
 
 # Generate service registration data
-num_records = 1000  # Number of service registration records to generate
+num_records = 100  # Number of service registration records to generate
 service_registration_data = generate_service_registration_data(num_records, service_ids, student_ids)
 
 # Write data to a file
 filename = os.path.join("sql", "data", "service_registration_data.sql")
 with open(filename, 'w') as file:
-    file.write("INSERT INTO Service_Registration (Service_ID, Student_ID, Service_Start_Date, Service_End_Date, Service_Payment_Date, Service_Status) VALUES\n")
+    file.write("INSERT INTO Service_Registration (Service_Registration_ID, Service_ID, Student_ID, Service_Start_Date, Service_End_Date, Service_Payment_Date) VALUES\n")
     for record in service_registration_data:
-        file.write(f"('{record[0]}', '{record[1]}', '{record[2]}', '{record[3]}', '{record[4]}', '{record[5]}','{record[6]}'),\n")
+        file.write(f"('{record[0]}', '{record[1]}', '{record[2]}', '{record[3]}', '{record[4]}', '{record[5]}'),\n")
 
 # Append semicolon to the last line
 with open(filename, 'rb+') as file:

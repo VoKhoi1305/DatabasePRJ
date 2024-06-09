@@ -29,7 +29,7 @@ END$$
 DELIMITER ;
 
 
-DELIMITER //
+DELIMITER $$
 
 CREATE TRIGGER check_occupancy_before_insert
 BEFORE INSERT ON Room
@@ -38,7 +38,7 @@ BEGIN
     IF NEW.Current_Occupancy > NEW.Number_Of_Bed THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Current occupancy cannot be greater than the number of beds';
     END IF;
-END //
+END $$
 
 CREATE TRIGGER check_occupancy_before_update
 BEFORE UPDATE ON Room
@@ -47,11 +47,11 @@ BEGIN
     IF NEW.Current_Occupancy > NEW.Number_Of_Bed THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Current occupancy cannot be greater than the number of beds';
     END IF;
-END //
+END $$
 
 DELIMITER ;
 
-DELIMITER //
+DELIMITER $$
 CREATE TRIGGER update_occupancy_on_renting
 AFTER INSERT ON Renting
 FOR EACH ROW
@@ -76,11 +76,11 @@ BEGIN
   ELSE
     SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Cannot rent room, maximum capacity reached.';
   END IF;
-END; //
+END; $$
 DELIMITER ;
 
 
-Drop trigger update_occupancy_on_renting
+
 DELIMITER $$
 
 CREATE TRIGGER Renting_Gender_check
@@ -133,4 +133,30 @@ BEGIN
 END $$
 
 DELIMITER ;
-DROP Trigger Calculate_Total_Amount_Monthly
+
+DELIMITER $$
+CREATE TRIGGER trg_check_equipment_usage
+BEFORE INSERT ON Equipment_Usage
+FOR EACH ROW
+BEGIN
+    DECLARE use_quantity INT;
+    DECLARE total_quantity INT;
+    -- Tính tổng số lượng thiết bị đang sử dụng cho thiết bị cụ thể trong bảng Equipment_Usage
+    SELECT SUM(Using_Quantity)
+    INTO use_quantity
+    FROM Equipment_Usage
+    GROUP BY  Equipment_Usage.Equipment_ID
+	HAVING Equipment_Usage.Equipment_ID = NEW.Equipment_ID;
+
+
+    SELECT Equipment_Quantity
+    INTO total_quantity
+    FROM Equipment
+    WHERE Equipment.Equipment_ID = NEW.Equipment_ID;
+
+    -- Kiểm tra nếu số lượng thiết bị sử dụng cộng với số lượng mới chèn lớn hơn số lượng thiết bị hiện có
+    IF use_quantity + NEW.Using_Quantity > total_quantity THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Số lượng thiết bị sử dụng vượt quá số lượng thiết bị hiện có';
+    END IF;
+END $$

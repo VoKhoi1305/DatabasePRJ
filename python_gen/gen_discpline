@@ -18,7 +18,7 @@ violations = [
 
 # List of penalties
 penalties = [
-    "Warning", "Fine", "Community service", "Suspension", "Expulsion"
+    "Warning", "Fine", "Community service"
 ]
 
 # Function to generate unique Discipline ID
@@ -28,6 +28,16 @@ def generate_unique_discipline_id(existing_ids):
         if discipline_id not in existing_ids:
             existing_ids.add(discipline_id)
             return discipline_id
+# Assuming student_data is already generated
+student_file_path = os.path.join("sql", "data", "student_data.sql")
+def parse_student_ids(file_path):
+    student_ids = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.startswith("('"):
+                student_id = line.split(',')[0].strip("('")
+                student_ids.append(student_id)
+    return student_ids
 
 
 # Function to generate Discipline data
@@ -46,22 +56,8 @@ def generate_discipline_data(student_ids, num_records):
     
     return discipline_data
 
-# Assuming student_data is already generated
-student_file_path = os.path.join("sql", "data", "student_data.sql")
 
-# Extract Student IDs from the student data file
-student_ids = []
-with open(student_file_path, 'r') as file:
-    for line in file:
-        if line.startswith("INSERT INTO Student"):
-            continue
-        if line.strip() == ";":
-            break
-        # Extract the student ID (first field) and ensure it consists only of digits
-        student_id = line.split(',')[0].strip("('")
-        if student_id.isdigit():
-            student_ids.append(student_id)
-
+student_ids = parse_student_ids(student_file_path)
 # Generate discipline data
 num_records = 1000  # Number of discipline records to generate
 discipline_data = generate_discipline_data(student_ids, num_records)
@@ -82,3 +78,4 @@ with open(file_path, 'rb+') as file:
     file.write(b';')
 
 print(f"Discipline data written to {file_path}")
+print(student_ids)

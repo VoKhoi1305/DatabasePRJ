@@ -1,0 +1,45 @@
+import os
+import random
+
+# Sample staff data
+def parse_staff_ids(file_path):
+    staff_ids = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.startswith("('"):
+                staff_id = line.split(',')[0].strip("('")
+                staff_ids.append(staff_id)
+    return staff_ids
+
+# Dorm IDs
+dorm_ids = ['DORM0001', 'DORM0002', 'DORM0003', 'DORM0004', 'DORM0005', 'OFFICE']
+
+# Function to generate INSERT statements for Working table
+def generate_working_inserts(staff_ids, dorm_ids):
+    renting_data = []
+    for staff in staff_ids:
+        staff_id = staff
+        dorm_id = random.choice(dorm_ids)
+        renting_data.append((staff_id,dorm_id))
+    
+    return renting_data 
+room_file_path = os.path.join("sql", "data", "insert_staff_data.sql")
+# Generate INSERT statements
+staff_ids = parse_staff_ids(room_file_path)
+renting_data = generate_working_inserts(staff_ids,dorm_ids)
+# Define file path
+filename = os.path.join("sql", "data", "working_data.sql")
+
+# Write data to the file
+with open(filename, 'w') as file:
+    
+    for record in renting_data:
+        file.write("INSERT INTO WORKING (staff_id,dorm_id) Values\n")
+        file.write(f"('{record[0]}', '{record[1]}');\n")
+
+# Append semicolon to the last line
+with open(filename, 'rb+') as file:
+    file.seek(-2, os.SEEK_END)
+    file.truncate()
+    file.write(b";")
+

@@ -31,7 +31,7 @@ INSERT INTO Dorm (Dorm_ID, Dorm_Name, Number_Of_Rooms, Number_Of_Floors) VALUES
 		ON DELETE CASCADE
 		ON UPDATE CASCADE
 	);
-drop table room
+
 	CREATE TABLE Student (
 		Student_ID CHAR(8) NOT NULL UNIQUE PRIMARY KEY,
 		Student_First_Name VARCHAR(30) NOT NULL,
@@ -44,9 +44,7 @@ drop table room
         Student_City VARCHAR(50),
 		Major VARCHAR(150) NOT NULL 
 	);
-    drop table Student
     
-	
 	CREATE TABLE Staff (
 		Staff_ID VARCHAR(8) NOT NULL UNIQUE PRIMARY KEY,
 		Staff_First_Name VARCHAR(30) NOT NULL,
@@ -55,9 +53,9 @@ drop table room
 		Staff_Position VARCHAR(100) NOT NULL ,
 		Staff_Phone_Number CHAR(10) NOT NULL,
 		Staff_Address VARCHAR(100),
-		Salary DECIMAL(4, 2)
+		Salary DECIMAL(6, 2)
 	);
-
+ 
 	CREATE TABLE Equipment (
 		Equipment_ID CHAR(8) NOT NULL UNIQUE PRIMARY KEY,
 		Equipment_Name VARCHAR(50) NOT NULL,
@@ -76,12 +74,13 @@ drop table room
 		Service_ID CHAR(8) NOT NULL UNIQUE PRIMARY KEY,
 		Provider_ID CHAR(8) NOT NULL,
 		Service_Name VARCHAR(30)  NOT NULL,
-		Service_Price DECIMAL(4, 2),
+		Service_Price DECIMAL(5, 2),
 		Service_Description TEXT,
 		fOREIGN KEY (Provider_ID) references Provider(Provider_ID)
 		ON DELETE CASCADE
 		ON UPDATE CASCADE
 	);
+
 
 	-- Tạo bảng Hồ sơ kỷ luật (Discipline)
 	CREATE TABLE Discipline (
@@ -100,7 +99,7 @@ drop table room
 		Incident_ID CHAR(8) NOT NULL PRIMARY KEY,
 		Incident_Status VARCHAR(10) DEFAULT 'fixing',
 		Room_ID CHAR(8) NOT NULL,
-		Report_Date DATE ,
+		Report_Date DATE,
 		Incident_Description TEXT,
 		FOREIGN KEY (Room_ID) REFERENCES Room(Room_ID)
 		ON DELETE CASCADE
@@ -121,7 +120,6 @@ drop table room
 		ON DELETE CASCADE
 		ON UPDATE CASCADE
 	);
-
 	-- Tạo bảng đăng ký dịch vụ (Service_Registration)
 	CREATE TABLE Service_Registration (
 		Service_Registration_ID CHAR(8) PRIMARY KEY,
@@ -134,6 +132,7 @@ drop table room
 		FOREIGN KEY (Service_ID) REFERENCES Service(Service_ID),
 		FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID)
 	);
+    
 	CREATE TABLE Service_price(
 		Service_Registration_ID CHAR(8) PRIMARY KEY,
         Service_total DECIMAL(6,2),
@@ -159,17 +158,16 @@ drop table room
 		FOREIGN KEY (Staff_ID) REFERENCES Staff(Staff_ID),
 		FOREIGN KEY (Dorm_ID) REFERENCES Dorm(Dorm_ID)
 	);
-	DROP TABLE IF EXISTS Equipment_Usage;
-	DROP TABLE IF EXISTS Service_Registration;
-	DROP TABLE IF EXISTS Supply;
-	DROP TABLE IF EXISTS Renting;
-	DROP TABLE IF EXISTS Incident;
-	DROP TABLE IF EXISTS Discipline;
-	DROP TABLE IF EXISTS Provider;
-	DROP TABLE IF EXISTS Service;
-	DROP TABLE IF EXISTS Equipment;
-	DROP TABLE IF EXISTS Staff;
-	DROP TABLE IF EXISTS Student;
-	DROP TABLE IF EXISTS Room;
-	DROP TABLE IF EXISTS Dorm;
-    
+	SELECT * from Equipment_Usage;
+	SELECT * from  Service_Registration;
+	SELECT * from  Renting;
+	SELECT * from Incident;
+	SELECT * from  Discipline;
+	SELECT * from  Provider;
+	SELECT * from Service;
+	SELECT * from  Equipment;
+	SELECT * from  Staff;
+	SELECT * from  Student;
+SELECT * from Room;
+SELECT * from  Dorm;
+    SELECT * from Service_price;

@@ -1,7 +1,4 @@
 INSERT INTO Service (Service_ID, Provider_ID, Service_Name, Service_Price, Service_Description) VALUES
-('5YGFANKA', 'FMIADWCI', 'Swimming Pool', 440.99, 'Well court any unit anything. Available share total business.
-All house easy popular simple.
-Short street both trip stuff face. Under give play beyond. Law discussion able explain.'),
 ('KZ5Z1I8F', '8IK5BEU7', 'Garden', 28.58, 'Agency prevent seem from. Store similar I final carry.
 Although return rule three far start result. Eight office place own article kid him.'),
 ('L6FWQWKV', 'H3J0Z6MP', 'Transport Service', 464.34, 'Leader agency top scientist baby. Clearly wait likely fall. Pick drop wish interest.'),

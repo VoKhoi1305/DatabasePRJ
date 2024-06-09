@@ -44,7 +44,7 @@ def generate_renting_data(num_records, room_ids, student_ids):
         renting_contract_id = generate_unique_renting_contract_id(existing_ids)
         room_id = random.choice(room_ids)
         student_id = random.choice(student_ids)
-        payment_date = fake.date_between_dates(date_start=datetime(2015, 1, 1), date_end=datetime(2024, 12, 31)).strftime('%Y-%m-%d')
+        payment_date = fake.date_between_dates(date_start=datetime(2023, 1, 1), date_end=datetime(2024, 12, 31)).strftime('%Y-%m-%d')
         start_date = (datetime.strptime(payment_date, '%Y-%m-%d') + timedelta(days=random.randint(-30, 30))).strftime('%Y-%m-%d')
         end_date = (datetime.strptime(  start_date, '%Y-%m-%d') + timedelta(days=180)).strftime('%Y-%m-%d')
         status = 'paid'
@@ -62,7 +62,7 @@ room_ids = parse_room_ids(room_file_path)
 student_ids = parse_student_ids(student_file_path)
 
 # Generate renting data
-num_records = 20000  # Number of renting records to generate
+num_records = 100  # Number of renting records to generate
 renting_data = generate_renting_data(num_records, room_ids, student_ids)
 
 # Write data to a file
