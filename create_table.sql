@@ -168,6 +168,20 @@ INSERT INTO Dorm (Dorm_ID, Dorm_Name, Number_Of_Rooms, Number_Of_Floors) VALUES
 	SELECT * from  Equipment;
 	SELECT * from  Staff;
 	SELECT * from  Student;
-SELECT * from Room;
-SELECT * from  Dorm;
+	SELECT * from Room;
+	SELECT * from  Dorm;
     SELECT * from Service_price;
+    
+    Delete  from Equipment_Usage;
+	Delete from  Service_Registration;
+	Delete from  Renting;
+	Delete from Incident;
+	Delete from  Discipline;
+	Delete from  Provider;
+	Delete from  Equipment;
+	Delete from Service;
+	Delete from  Staff;
+	Delete from  Student;
+	Delete from Room;
+	Delete  from Service_price;
+              
