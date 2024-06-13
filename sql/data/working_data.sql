@@ -13,15 +13,15 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('W1JSTM7C', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('J7JIFUDZ', 'OFFICE');
+('J7JIFUDZ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('256F2J3B', 'OFFICE');
+('256F2J3B', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MFG0M42J', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('4CC9X5XD', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('YYPVG81O', 'OFFICE');
+('YYPVG81O', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VSAWLF88', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -35,13 +35,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q4ENU74W', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('ND7S5HBT', 'OFFICE');
+('ND7S5HBT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('PXW902S8', 'OFFICE');
+('PXW902S8', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O4C7JQRM', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('LY47VAKV', 'OFFICE');
+('LY47VAKV', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('GY2QUKC6', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -51,7 +51,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('L7S80T9P', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('VTIPSCGX', 'OFFICE');
+('VTIPSCGX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('W1QVK9LC', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -65,7 +65,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('JJ5O8OXR', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('TY93FAZN', 'OFFICE');
+('TY93FAZN', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('TL67HLPJ', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -75,7 +75,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DI6WHI4F', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('PHX5VMA6', 'OFFICE');
+('PHX5VMA6', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q8V9F76Q', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -115,7 +115,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1CZVVTJ5', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('GP2D0UZ9', 'OFFICE');
+('GP2D0UZ9', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('B9FCK2ZZ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -135,7 +135,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('LYWUFQGP', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('7706MLCX', 'OFFICE');
+('7706MLCX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('XVY2F37P', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -151,7 +151,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('NUA7GRQI', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('AOCSIPOD', 'OFFICE');
+('AOCSIPOD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1I9Z1YEI', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -159,7 +159,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0EMOPRMW', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('HBVAVGH1', 'OFFICE');
+('HBVAVGH1', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('NUHZB5C1', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -177,9 +177,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('WBXE7XTZ', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('HDQ14WGM', 'OFFICE');
+('HDQ14WGM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5EFGHNN2', 'OFFICE');
+('5EFGHNN2', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3QOC6KQH', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -195,17 +195,17 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VGGOXKJI', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('JFK4YIFS', 'OFFICE');
+('JFK4YIFS', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('XGM3RNH9', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3PBYZFYN', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('UVEFT44W', 'OFFICE');
+('UVEFT44W', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VLVEIV2P', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('6Z2DRLDD', 'OFFICE');
+('6Z2DRLDD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('WKHJ2EYG', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -215,7 +215,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('OUQXF92M', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('PUZ66KJH', 'OFFICE');
+('PUZ66KJH', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O5QFMS1A', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -257,7 +257,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3CJKMP5K', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BEKJTTCK', 'OFFICE');
+('BEKJTTCK', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('IMNVLZQ4', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -265,19 +265,19 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VA3DCCPZ', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('TK8OJS0J', 'OFFICE');
+('TK8OJS0J', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('IYMH7I68', 'OFFICE');
+('IYMH7I68', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('8KQP0PIY', 'OFFICE');
+('8KQP0PIY', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('MVX9Y19F', 'OFFICE');
+('MVX9Y19F', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q316KXRZ', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3JOVK3AX', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('GX5257R4', 'OFFICE');
+('GX5257R4', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('FF7S6WSO', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -287,7 +287,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('BBCRX0PM', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('98V7B2F8', 'OFFICE');
+('98V7B2F8', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1F16KKZV', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -305,31 +305,31 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('KX8ZE40U', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('SV03DSRZ', 'OFFICE');
+('SV03DSRZ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('N2ETI47V', 'OFFICE');
+('N2ETI47V', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DSY7PH02', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('JDHW8N45', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('FWIAFCFJ', 'OFFICE');
+('FWIAFCFJ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('7O6DAYY5', 'OFFICE');
+('7O6DAYY5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DYRZKUDC', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Y281NVYP', 'OFFICE');
+('Y281NVYP', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VQ5AHB5X', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('4JLPSCUA', 'OFFICE');
+('4JLPSCUA', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MQDAL9A2', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('K1NH9PJK', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('LORVCR7W', 'OFFICE');
+('LORVCR7W', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ND2DSRFO', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -337,7 +337,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('H6SOIEPR', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5FN1CMDG', 'OFFICE');
+('5FN1CMDG', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('8413BS49', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -347,13 +347,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O7LIWY7Z', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('ER0HKPNI', 'OFFICE');
+('ER0HKPNI', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('C5PLBHP7', 'OFFICE');
+('C5PLBHP7', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('P4PSTACO', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('DHVHI7YO', 'OFFICE');
+('DHVHI7YO', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3A5XJ0NH', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -363,7 +363,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('RTJH2IF5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('4H6VP0XD', 'OFFICE');
+('4H6VP0XD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Z5D3T13E', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -377,7 +377,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0B8AV91N', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('EFO02B2A', 'OFFICE');
+('EFO02B2A', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('86PINZYP', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -403,7 +403,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('7PX4ZDTG', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('UQIQ2P4L', 'OFFICE');
+('UQIQ2P4L', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ROLP4K5Q', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -433,11 +433,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('6CDCC2K3', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('AM5RPSFE', 'OFFICE');
+('AM5RPSFE', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('2TZJD7VC', 'OFFICE');
+('2TZJD7VC', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5DTTFKHJ', 'OFFICE');
+('5DTTFKHJ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DZL6M1WX', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -449,7 +449,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('9WCRUE40', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('LTFJQMV7', 'OFFICE');
+('LTFJQMV7', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('56MLZ9UQ', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -479,7 +479,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('H5OL80C8', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('1VD120C1', 'OFFICE');
+('1VD120C1', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Y6X9HXV5', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -487,7 +487,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DY8NAASV', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('2S8ZMVZM', 'OFFICE');
+('2S8ZMVZM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('J67WOIPW', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -495,9 +495,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('KVX8Z6GC', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BUZP9K87', 'OFFICE');
+('BUZP9K87', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('QSQH6ZRM', 'OFFICE');
+('QSQH6ZRM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('T2284L19', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -525,25 +525,25 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('IVXRKCSC', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('VNUKQHXT', 'OFFICE');
+('VNUKQHXT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('S15KDCHU', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('JO0XAD9A', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BVCUOJMG', 'OFFICE');
+('BVCUOJMG', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3RLKU3WI', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0DHVPV4S', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('L9KEHHX9', 'OFFICE');
+('L9KEHHX9', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('HJWA53DX', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('M3BY97ZY', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('41ZCSPIB', 'OFFICE');
+('41ZCSPIB', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O6I2TAS8', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -567,7 +567,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('NKGIWS4Q', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('EPBCP29K', 'OFFICE');
+('EPBCP29K', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('CFWK2WO1', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -585,7 +585,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('TQLZY3O2', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('0M2L71T0', 'OFFICE');
+('0M2L71T0', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('N632CMAZ', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -619,13 +619,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('G91DSU9C', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('JVIH324Z', 'OFFICE');
+('JVIH324Z', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('EDAV71TJ', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('UKGABU4P', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('NZ61TAER', 'OFFICE');
+('NZ61TAER', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('5JKDMG0U', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -635,7 +635,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ZQ79WIR9', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5HL56UBX', 'OFFICE');
+('5HL56UBX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DMQAPE8Z', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -643,7 +643,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('9P5AKGPG', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('18ZEL4PZ', 'OFFICE');
+('18ZEL4PZ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('CFD8HL95', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -669,7 +669,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MFXRHRMB', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('MWJYP9Z9', 'OFFICE');
+('MWJYP9Z9', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('CV9V5XZH', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -693,13 +693,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('M1GFFRSF', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('W8K4DV7I', 'OFFICE');
+('W8K4DV7I', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('FY58V4FC', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('M0XHVC5X', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('RTVQ3JUD', 'OFFICE');
+('RTVQ3JUD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('YCHI4JJ8', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -711,7 +711,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('TJR7CAS0', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('3A533AVS', 'OFFICE');
+('3A533AVS', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('60RFAJCU', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -719,7 +719,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('407M5S1S', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('IOZIBEMZ', 'OFFICE');
+('IOZIBEMZ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('OUU89A7S', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -745,9 +745,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('PH42TP17', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Q5BX4LR3', 'OFFICE');
+('Q5BX4LR3', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('65I4RBPN', 'OFFICE');
+('65I4RBPN', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VCEYQ4MV', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -765,9 +765,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('4AP6BDM2', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('XUNXJWRL', 'OFFICE');
+('XUNXJWRL', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('3VO7V1CH', 'OFFICE');
+('3VO7V1CH', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VNBLIXV3', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -775,7 +775,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('IT5F5CMH', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('FC5E8GHU', 'OFFICE');
+('FC5E8GHU', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('KZ4RKDRW', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -791,9 +791,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('6JVSI2U3', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('K5REN2BD', 'OFFICE');
+('K5REN2BD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Q9GDLLH3', 'OFFICE');
+('Q9GDLLH3', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('9M8NHP4O', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -801,7 +801,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('63YCIYCE', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('1DVUMBU3', 'OFFICE');
+('1DVUMBU3', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ZCVXSXK0', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -815,7 +815,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('PC1DP8SZ', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('0X03QDXE', 'OFFICE');
+('0X03QDXE', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('UAYMJOU2', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -823,11 +823,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('LOAER19V', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('69EAD0RW', 'OFFICE');
+('69EAD0RW', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MYB6WIZF', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('ZLXZPWCM', 'OFFICE');
+('ZLXZPWCM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('BZZZ4GEN', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -871,7 +871,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('E5FHK0EW', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('HYRQ5MVM', 'OFFICE');
+('HYRQ5MVM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('D5Q6VYQA', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -883,9 +883,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('8J0AXUBJ', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BE6OSCM3', 'OFFICE');
+('BE6OSCM3', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('B5X52AWW', 'OFFICE');
+('B5X52AWW', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('N6A3S7OI', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -907,7 +907,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q2CXU3GX', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('T39GBEJY', 'OFFICE');
+('T39GBEJY', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Z62FQ1UR', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -943,7 +943,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('5VJJHKXK', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('GBVOT4Y5', 'OFFICE');
+('GBVOT4Y5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('L2UMB0M3', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -969,9 +969,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('V0WXSODZ', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('IHBGHT0R', 'OFFICE');
+('IHBGHT0R', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('O4KMZA1X', 'OFFICE');
+('O4KMZA1X', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('8GGCPDYC', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1015,11 +1015,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('G7HTH2XC', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('LGR1CGEG', 'OFFICE');
+('LGR1CGEG', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Z4OAVIW0', 'OFFICE');
+('Z4OAVIW0', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BMJ147OC', 'OFFICE');
+('BMJ147OC', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1PB4OWI6', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1033,13 +1033,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('S1EIKS1E', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('TIP0PAM8', 'OFFICE');
+('TIP0PAM8', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MNINSL6B', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('B8M6007Q', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('SFDDF9DY', 'OFFICE');
+('SFDDF9DY', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('XADAZWYV', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1055,13 +1055,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MYX89685', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('U7HE9DH9', 'OFFICE');
+('U7HE9DH9', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('9UP17INH', 'OFFICE');
+('9UP17INH', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0UC2UK9C', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('T9BZINLE', 'OFFICE');
+('T9BZINLE', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O839AZ0L', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1085,11 +1085,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DEZRFDOS', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('I2E5SXCX', 'OFFICE');
+('I2E5SXCX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('97DASJM1', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('UAL8F1CU', 'OFFICE');
+('UAL8F1CU', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('24VCU26N', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1099,11 +1099,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('TOQP44WC', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('9LT4G1MW', 'OFFICE');
+('9LT4G1MW', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('GAUM2IED', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('WZ7Y1G67', 'OFFICE');
+('WZ7Y1G67', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('YVAD8PC6', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1125,7 +1125,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('V78HA618', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('WQTF0Z0U', 'OFFICE');
+('WQTF0Z0U', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('QU66AAU4', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1145,7 +1145,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('16G5GULR', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('MLSI9WS4', 'OFFICE');
+('MLSI9WS4', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('WH4OJ6ZM', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1173,13 +1173,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('UGZN845O', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('M1CC5PV1', 'OFFICE');
+('M1CC5PV1', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('42SM4KOE', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('OTTT1ABJ', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('PE93AIIW', 'OFFICE');
+('PE93AIIW', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('SQMWFMF4', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1207,7 +1207,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('AKLMICYV', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('XGL3FJZG', 'OFFICE');
+('XGL3FJZG', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('J5FZ02HT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1219,13 +1219,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Z9VELV5N', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('3IYXDYO4', 'OFFICE');
+('3IYXDYO4', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('GAN7I9S5', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('BX0K4WUV', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('76VMCTJ3', 'OFFICE');
+('76VMCTJ3', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('G4W7A4IW', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1237,7 +1237,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ODCT0OYQ', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('HNVV32A5', 'OFFICE');
+('HNVV32A5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('J75S762B', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1247,7 +1247,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('WHUFA2KX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('SO9T9OOU', 'OFFICE');
+('SO9T9OOU', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('M3ADPF2J', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1255,9 +1255,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q5L67U2M', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('I5WVBJU7', 'OFFICE');
+('I5WVBJU7', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('1K5H9DAJ', 'OFFICE');
+('1K5H9DAJ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0072VEPV', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1295,7 +1295,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('YBALZ4SU', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('QMBI5NW0', 'OFFICE');
+('QMBI5NW0', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('V7F2KF2H', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1313,7 +1313,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('7AVG0CXB', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('26UIIQ8Y', 'OFFICE');
+('26UIIQ8Y', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('I7UIZF9O', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1325,7 +1325,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q0WAM6SB', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('CDFNEJUM', 'OFFICE');
+('CDFNEJUM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('CC40ILUU', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1359,27 +1359,27 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('XFB9LSJ0', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Z23RIYIR', 'OFFICE');
+('Z23RIYIR', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DLTAGP1X', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('UCQ3FGT4', 'OFFICE');
+('UCQ3FGT4', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('SKBLWHP9', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('RIIA031G', 'OFFICE');
+('RIIA031G', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('80U7YQWR', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('9YCQNNGT', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('C8UEVU8K', 'OFFICE');
+('C8UEVU8K', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('GG8ACYG8', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('IYFXBWBU', 'OFFICE');
+('IYFXBWBU', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('TOTSN58O', 'OFFICE');
+('TOTSN58O', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('KRRWPCIM', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1399,7 +1399,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('CZSFOH7N', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('E2T0TCBK', 'OFFICE');
+('E2T0TCBK', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('15CEHBGS', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1407,7 +1407,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('KUYKWFSW', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('7LNFRT6G', 'OFFICE');
+('7LNFRT6G', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('D3XK1NQ4', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1427,7 +1427,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('J7XH1O7U', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('YDS2U8HY', 'OFFICE');
+('YDS2U8HY', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('191W84BX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1435,11 +1435,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('PRG5U9Q8', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Y7HC7FMX', 'OFFICE');
+('Y7HC7FMX', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O398U1PI', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('2U5NZY50', 'OFFICE');
+('2U5NZY50', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('AZTP4WKV', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1463,7 +1463,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Y6P9M89D', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BU9FHUEM', 'OFFICE');
+('BU9FHUEM', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('R64BW9OP', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1473,11 +1473,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('OD5B399X', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('60H51GKZ', 'OFFICE');
+('60H51GKZ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ZC6WBHPG', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('8JT43K5A', 'OFFICE');
+('8JT43K5A', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('JTM8IQ1C', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1509,7 +1509,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('50HGKTSC', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('FH4VG1XP', 'OFFICE');
+('FH4VG1XP', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('IGHAA702', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1521,7 +1521,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DLE4P22I', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('LJRNG1K5', 'OFFICE');
+('LJRNG1K5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MVJ0RMXD', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1531,7 +1531,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('8XIOG09W', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('DKCWDO2Y', 'OFFICE');
+('DKCWDO2Y', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('8HPL2Q0R', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1545,9 +1545,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('2X832Q4N', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('XRVULDX5', 'OFFICE');
+('XRVULDX5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BPIMLK6V', 'OFFICE');
+('BPIMLK6V', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('AE6SNJEF', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1555,11 +1555,11 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('719AOGBD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('HRHT6HP6', 'OFFICE');
+('HRHT6HP6', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('8VLWKJJD', 'OFFICE');
+('8VLWKJJD', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5FJHUV8Z', 'OFFICE');
+('5FJHUV8Z', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('IC5A3CJJ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1585,13 +1585,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('UQ41IGYY', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('DDDDG85G', 'OFFICE');
+('DDDDG85G', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('HC2Q5PHK', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1XDLA1IU', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('73R15458', 'OFFICE');
+('73R15458', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('VFM3QIIP', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1605,13 +1605,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('HNTFEMJ6', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('1FZ8U2UC', 'OFFICE');
+('1FZ8U2UC', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('YKUYZEI6', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DODYOMDA', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('L1A4EW3U', 'OFFICE');
+('L1A4EW3U', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('998U5I45', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1619,21 +1619,21 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('3NSFIU9H', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('GDJQSW2H', 'OFFICE');
+('GDJQSW2H', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('7CQ12HQT', 'OFFICE');
+('7CQ12HQT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('FZ0X93K9', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('JB5O9M80', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('3O7MDRPN', 'OFFICE');
+('3O7MDRPN', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('8DOXKGQY', 'OFFICE');
+('8DOXKGQY', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0YOJ2NTP', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('W39C5ZVO', 'OFFICE');
+('W39C5ZVO', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('Q5N0M99H', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1649,7 +1649,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('QLNDKFCI', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5JSAEW7C', 'OFFICE');
+('5JSAEW7C', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DHANZZOK', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1663,13 +1663,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('P6JC7A37', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('FU4HX0AB', 'OFFICE');
+('FU4HX0AB', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('AS881Z6N', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('04FFBZW9', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('BNGOO6TT', 'OFFICE');
+('BNGOO6TT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('LRVVWXZS', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1679,7 +1679,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('V5UIEJW8', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('F7ICRCOO', 'OFFICE');
+('F7ICRCOO', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('STCQPPML', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1689,25 +1689,25 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('DJBN1C2W', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('6WMSYOTC', 'OFFICE');
+('6WMSYOTC', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1HXUQOVJ', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('XTMRURZR', 'OFFICE');
+('XTMRURZR', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('IDZ3ETOB', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('XKHU615M', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('FWM49HOW', 'OFFICE');
+('FWM49HOW', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('QALXP8NU', 'OFFICE');
+('QALXP8NU', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('GP89TS5C', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('EMINPV6P', 'OFFICE');
+('EMINPV6P', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Y0L9UWMP', 'OFFICE');
+('Y0L9UWMP', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('ZVK1DR78', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1715,13 +1715,13 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('P268LY8P', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('XQWLUE7G', 'OFFICE');
+('XQWLUE7G', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('L63LM92J', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('QBDCFBTB', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('Z5ZTMZ5Z', 'OFFICE');
+('Z5ZTMZ5Z', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('PVPJT3I2', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1753,7 +1753,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('5B3HD2UY', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('4MF7NDNR', 'OFFICE');
+('4MF7NDNR', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('54MX26QM', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1799,9 +1799,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('9F4KER8A', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('E2UTZE5L', 'OFFICE');
+('E2UTZE5L', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('SSR6N3XA', 'OFFICE');
+('SSR6N3XA', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('4ZHD3CSL', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1815,7 +1815,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('N5JH94YL', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('L3O8F3FY', 'OFFICE');
+('L3O8F3FY', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('1SC99FCD', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1831,9 +1831,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('54MR2ZH5', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('KXEYGO5V', 'OFFICE');
+('KXEYGO5V', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('LR2HVJAT', 'OFFICE');
+('LR2HVJAT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('MKY3S6KL', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1851,7 +1851,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('TO6TLQZ6', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('ECMCRQ1M', 'OFFICE');
+('ECMCRQ1M', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('2AWLGOD8', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1875,17 +1875,17 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('TUT8V9W5', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('WFNMG2KG', 'OFFICE');
+('WFNMG2KG', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('M4VCGTM4', 'OFFICE');
+('M4VCGTM4', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('IUA9PQ6J', 'OFFICE');
+('IUA9PQ6J', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('D7KKAJQ3', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('YZJ2VBKF', 'OFFICE');
+('YZJ2VBKF', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('SWBFSX14', 'OFFICE');
+('SWBFSX14', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('9SZA983J', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1893,7 +1893,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('0HRF56CA', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('8D52VVXT', 'OFFICE');
+('8D52VVXT', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('5NI2RZNI', 'DORM0001');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1925,7 +1925,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('CUXYFE77', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('ZCOT5YF9', 'OFFICE');
+('ZCOT5YF9', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('7FC9NGQP', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1947,7 +1947,7 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('O45J31QV', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5C7XCLS8', 'OFFICE');
+('5C7XCLS8', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('UP670ZX2', 'DORM0004');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1963,9 +1963,9 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('W5AGNCSR', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('31MI1LS2', 'OFFICE');
+('31MI1LS2', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('6WLPKEBJ', 'OFFICE');
+('6WLPKEBJ', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('STU1U4W8', 'DORM0003');
 INSERT INTO WORKING (staff_id,dorm_id) Values
@@ -1995,6 +1995,6 @@ INSERT INTO WORKING (staff_id,dorm_id) Values
 INSERT INTO WORKING (staff_id,dorm_id) Values
 ('D0QO22UT', 'DORM0002');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('SVZOAUJP', 'OFFICE');
+('SVZOAUJP', 'DORM0005');
 INSERT INTO WORKING (staff_id,dorm_id) Values
-('5G5O5CPP', 'DORM0001');;
+('5G5O5CPP', 'DORM0001');

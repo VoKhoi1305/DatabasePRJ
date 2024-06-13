@@ -171,6 +171,7 @@ INSERT INTO Dorm (Dorm_ID, Dorm_Name, Number_Of_Rooms, Number_Of_Floors) VALUES
 	SELECT * from Room;
 	SELECT * from  Dorm;
     SELECT * from Service_price;
+    select * from Working;
     
     Delete  from Equipment_Usage;
 	Delete from  Service_Registration;
@@ -184,4 +185,5 @@ INSERT INTO Dorm (Dorm_ID, Dorm_Name, Number_Of_Rooms, Number_Of_Floors) VALUES
 	Delete from  Student;
 	Delete from Room;
 	Delete  from Service_price;
-              
+	Delete  from Dorm where Dorm_ID = 'Dorm0006'
+    Delete from working
