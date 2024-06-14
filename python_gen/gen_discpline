@@ -1,0 +1,81 @@
+import random
+import string
+from faker import Faker
+import os
+
+# Initialize Faker
+fake = Faker()
+
+# Extended list of typical dormitory violations
+violations = [
+    "Noise disturbance", "Unauthorized guests", "Vandalism", "Alcohol possession", 
+    "Drug possession", "Smoking in prohibited areas", "Violation of quiet hours", 
+    "Misuse of facilities", "Failure to comply with safety regulations", "Pet policy violations",
+    "Tampering with fire safety equipment", "Harassment", "Theft", "Destruction of property",
+    "Physical altercations", "Failure to evacuate during a fire alarm", "Unauthorized use of common areas",
+    "Disorderly conduct", "Littering", "Prohibited use of cooking appliances"
+]
+
+# List of penalties
+penalties = [
+    "Warning", "Fine", "Community service"
+]
+
+# Function to generate unique Discipline ID
+def generate_unique_discipline_id(existing_ids):
+    while True:
+        discipline_id = ''.join(random.choices(string.ascii_uppercase + string.digits, k=8))
+        if discipline_id not in existing_ids:
+            existing_ids.add(discipline_id)
+            return discipline_id
+# Assuming student_data is already generated
+student_file_path = os.path.join("sql", "data", "student_data.sql")
+def parse_student_ids(file_path):
+    student_ids = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.startswith("('"):
+                student_id = line.split(',')[0].strip("('")
+                student_ids.append(student_id)
+    return student_ids
+
+
+# Function to generate Discipline data
+def generate_discipline_data(student_ids, num_records):
+    discipline_data = []
+    existing_ids = set()  # To store unique discipline IDs
+    
+    for _ in range(num_records):
+        discipline_id = generate_unique_discipline_id(existing_ids)
+        student_id = random.choice(student_ids)
+        violation_date = fake.date_between(start_date='-2y', end_date='today')
+        violation_information = random.choice(violations)
+        penalty = random.choice(penalties)
+        
+        discipline_data.append((discipline_id, student_id, violation_date, violation_information, penalty))
+    
+    return discipline_data
+
+
+student_ids = parse_student_ids(student_file_path)
+# Generate discipline data
+num_records = 1000  # Number of discipline records to generate
+discipline_data = generate_discipline_data(student_ids, num_records)
+
+# Define the file path
+file_path = os.path.join("sql", "data", "discipline_data.sql")
+
+# Write data to the file
+with open(file_path, 'w') as file:
+    file.write("INSERT INTO Discipline (Discipline_ID, Student_ID, Violation_Date, Violation_Information, Penalty) VALUES\n")
+    for record in discipline_data:
+        file.write(f"('{record[0]}', '{record[1]}', '{record[2]}', '{record[3]}', '{record[4]}'),\n")
+
+# Append semicolon to the last line
+with open(file_path, 'rb+') as file:
+    file.seek(-2, os.SEEK_END)
+    file.truncate()
+    file.write(b';')
+
+print(f"Discipline data written to {file_path}")
+print(student_ids)
