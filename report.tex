@@ -15,26 +15,55 @@
     \begin{center}
         \textbf{\large ĐẠI HỌC BÁCH KHOA HÀ NỘI}\\
         \textbf{\large Trường Công nghệ Thông tin và Truyền thông}\\[1cm]
-        \includegraphics[width=100pt]{logo.png} \\[3cm] % Thay đường dẫn bằng đường dẫn tới logo của trường
+        \includegraphics[width=100pt]{logo.png} \\[1cm] % Thay đường dẫn bằng đường dẫn tới logo của trường
        
         
         \textbf{\Huge BÁO CÁO BÀI TẬP CUỐI KỲ 2023.2}\\[0.5cm]
         \textbf{\Huge Học phần: Thực hành cơ sở dữ liệu}\\[0.5cm]
         \textbf{\Huge Mã học phần: IT3290}\\[0.5cm]
+        \textbf{\Huge Chủ đề: Quản lý ký túc xá}\\[0.5cm]
         \textbf{Giảng viên hướng dẫn:} Lê Đức Hậu\\
-        \begin{flushleft}
-            \textbf{Họ và tên:} Võ Anh Khôi\\[0.5cm]
-            \textbf{Mã sinh viên:} [Mã Sinh Viên]\\[0.5cm]
-        
-        \end{flushleft}
+            \begin{tabular}{cc}
+  
+    \textbf{Họ và Tên} & \textbf{Mã số sinh viên}  \\
+
+    Võ Anh Khôi & 20225870  \\
+
+    Nguyễn Kỳ Anh & 20225783  \\
+ 
+    Trịnh Minh Đạt & 20225701  \\
+
+    Nguyễn Tùng Dương & 20225823
+
+\end{tabular}
         
         \vfill
         
-        \textbf{\large Hà Nội, ngày [Ngày] tháng [Tháng] năm [Năm]}
+        \textbf{\large Hà Nội, ngày 13 tháng 6 năm 2024}
         
     \end{center}
 \end{titlepage}
 
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[h]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|}
+\hline
+Họ và tên         & Công Việc                                                                                     \\ \hline
+Võ Anh Khôi       & Xây dựng mô hình ERD (cuối cùng), mô hình quan hệ, Xây dựng trigger và role, Viết báo cáo,Tạo dữ liệu, backup CSDL \\ \hline
+Nguyễn Kỳ Anh     & Xây dựng các chức năng, truy vấn, làm slide thuyết trình  (cuối cùng)                                    \\ \hline
+Trịnh Minh Đạt    & Xây dựng các chức năng, truy vấn, xây dựng mô hình ERD (lần 1)                                       \\ \hline
+Nguyễn Tùng Dương &  Xây dựng mô hình ERD (lần 1), Làm slide thuyết trình (lần 1)                                                                                 \\ \hline
+\end{tabular}%
+}
+\caption{phân chia công việc}
+\label{tab:my-table}
+\end{table}
+\tableofcontents
+\listoftables
+\listoffigures
 \section{Mô tả bài toán}
 \begin{itemize}
     \item Một trường đại học có một hệ thống ký túc xá lớn với nhiều tòa nhà và phòng khác nhau. Trường muốn xây dựng một hệ thống quản lý ký túc xá để dễ dàng theo dõi và quản lý các thông tin liên quan đến sinh viên, phòng ở, và các dịch vụ liên quan.
@@ -44,16 +73,20 @@
         \item Quản lý thông tin phòng
         \item Quản lý thông tin trang thiết bị
         \item Quản lý dịch vụ và tiện ích
+        \item Quản lý nhân viên của khu ký túc xá
         \item Quản lý thành toán
         \item Quản lý bảo trì và sự cố
+    
     \end{enumerate}
     \item Các chức năng chính của hệ thống
     \begin{enumerate}
-        \item Đăng ký và quản lý thông tin sinh viên
-        \item Quản lý phòng ở, trang thiết bị
-        \item Quản lý dịch vụ và tiện ích
-        \item Quản lý thanh toán
-        \item Quản lý bảo trì và sự cố
+        \item Đăng ký và quản lý thông tin sinh viên, các lỗi vi phạm
+        \item Đăng ký và quản lý phòng ở
+        \item Đăng ký và quản lý trang thiết bị
+        \item Đăng ký và quản lý phòng dịch vụ
+        \item Quản lý công việc và thông tin nhân viên của khu ký túc xá
+        \item Quản lý lịch sử thanh toán và sử dụng các tiện ích
+        \item Quản lý bảo trì và sự cố,
     \end{enumerate}
 \end{itemize}
 \newpage
